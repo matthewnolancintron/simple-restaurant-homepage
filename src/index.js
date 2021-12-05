@@ -22,5 +22,6 @@
     and import and call it in here index.js
  * 
  */
-
+import {pageLoad} from "./page-load.js";
+pageLoad();
 console.log('is this working?');

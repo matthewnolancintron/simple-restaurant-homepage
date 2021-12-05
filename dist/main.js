@@ -1,1 +1,1 @@
-console.log("is this working?");
+(()=>{"use strict";document.addEventListener("DOMContentLoaded",(()=>{console.log("test")})),console.log("is this working?")})();
