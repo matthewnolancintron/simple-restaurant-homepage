@@ -1,0 +1,22 @@
+/*
+    todo: style tab navigation
+*/
+header{
+    background-color: green;
+}
+
+nav{
+    display: flex;
+}
+
+.tab-styles{
+    background-color: honeydew;
+}
+
+.active-tab{
+    background-color: lemonchiffon;
+}
+
+.inactive-tab{
+    background-color: seashell;
+}
