@@ -7,21 +7,11 @@
  * 
  * run npx webpack to update a single time
  */
-
-/**
- * todo:
- * create this markup dynamically with js
- * <img src="cafe-1920.jpg" alt="possibly an illustration of cafe in greece during 1920?">
-        <h1>simple restaurant</h1>
-        <p>this is a wonderful restaurant</p>
-
-
-    and append it to div#content
-
-    going to write all the code in multiple files
-    and import and call it in here index.js
- * 
- */
 import {pageLoad} from "./page-load.js";
-pageLoad();
+import {buildTabNavigation} from "./tab-navigation.js"
+
+buildTabNavigation();
+//place content to be added into pageLoad function
+
+
 console.log('is this working?');
