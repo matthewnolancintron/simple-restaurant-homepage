@@ -1,7 +1,8 @@
 function pageLoad(content){
     //append content to page when first is first loaded
     document.addEventListener('DOMContentLoaded',()=>{
-        console.log('test')
+        let elementToAppendTo = document.getElementById('content');
+        elementToAppendTo.append(content);
     });
 };
 
