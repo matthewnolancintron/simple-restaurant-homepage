@@ -10,8 +10,8 @@
 import {pageLoad} from "./page-load.js";
 import {buildTabNavigation} from "./tab-navigation.js"
 
-buildTabNavigation();
+const tabNav = buildTabNavigation();
 //place content to be added into pageLoad function
-
+pageLoad(tabNav);
 
 console.log('is this working?');

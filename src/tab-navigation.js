@@ -40,8 +40,8 @@ function buildTabNavigation() {
     navigationElement.append(menuTab);
     navigationElement.append(contactsTab);
     headerElement.append(navigationElement);
-
-    document.body.append(headerElement);
+    
+    return headerElement;
 }
 
 export {buildTabNavigation};
