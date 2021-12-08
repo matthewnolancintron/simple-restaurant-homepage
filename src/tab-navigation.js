@@ -3,18 +3,17 @@ function buildTabNavigation() {
     const headerElement = document.createElement('header');
     const navigationElement = document.createElement('nav');
 
-    function updateActiveInactiveTab(tab){
-        console.log(tab);
-        if(tab.classList.contains('inactive-tab')){
-            //replace inactive with active
-            tab.classList.replace('inactive-tab','active-tab');
-
+    function updateActiveInactiveTab(e){
+        console.log(e.target);
+        if(e.target.classList.contains('inactive-tab')){
             //find previously active tab and set to inactive
-            tab.parentElement.children.forEach(element => {
-                if(element.classList.contains("active-tab")){
-                    element.classList.replace('active-tab','inactive-tab');
+            for (var tab of e.target.parentElement.children){
+                if(tab.classList.contains("active-tab")){
+                    tab.classList.replace('active-tab','inactive-tab');
                 }
-            });
+            }
+            //replace selected tab's inactive with active
+            e.target.classList.replace('inactive-tab','active-tab');
         }
     }
 
