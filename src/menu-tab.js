@@ -9,11 +9,13 @@ function buildMenuTabPage(){
     const drinksContainer = document.createElement('div');
     const drinksTitle = document.createElement('h2');
     drinksTitle.textContent = 'Drinks';
-    
+    drinksContainer.append(drinksTitle);
+
     const foodContainer = document.createElement('div');
     const foodTitle = document.createElement('h2');
     foodTitle.textContent = 'Foods';
-    
+    foodContainer.append(foodTitle);
+
     const foodRecipeList = document.createElement('ol');
     const foodRecipeListArray = [
         {title:'apple, plain', description:'just an apple washed and at room temp...'},
