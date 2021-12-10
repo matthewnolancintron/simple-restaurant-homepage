@@ -1,7 +1,10 @@
 function buildTabNavigation() {
     //header and navigation
     const headerElement = document.createElement('header');
+    headerElement.classList.add('tab_nav_header')
+
     const navigationElement = document.createElement('nav');
+    navigationElement.classList.add('tab_nav');
 
     function updateActiveInactiveTab(e){
         console.log(e.target);
