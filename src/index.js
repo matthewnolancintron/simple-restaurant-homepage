@@ -11,11 +11,14 @@ import {pageLoad} from "./page-load.js";
 import {buildTabNavigation} from "./tab-navigation.js"
 import { buildHomeTabPage } from "./home-tab.js";
 import { buildMenuTabPage } from "./menu-tab.js";
+import { buildContactsPage } from "./contact-tab.js";
+
 
 const tabNav = buildTabNavigation();
 const home = buildHomeTabPage();
 const menu = buildMenuTabPage();
-//const contacts = 
+const contacts = buildContactsPage();
+console.log(contacts);
 
 //show default active tab page
 if(tabNav.firstElementChild.firstElementChild.classList = 'active-tab'){
@@ -43,8 +46,12 @@ for(var tab of tabNav.firstElementChild.children){
                         content.replaceChild(menu,content.firstElementChild);
                     }
                     break;
-            
+                case 'Contacts':
+                    if(content.firstElementChild.classList != "contacts_page"){
+                        content.replaceChild(contacts,content.firstElementChild);
+                    }
                 default:
+                    console.log('?')
                     break;
             }
             //content.append()
