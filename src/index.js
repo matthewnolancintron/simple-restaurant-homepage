@@ -12,6 +12,7 @@ import {buildTabNavigation} from "./tab-navigation.js"
 import { buildHomeTabPage } from "./home-tab.js";
 import { buildMenuTabPage } from "./menu-tab.js";
 import { buildContactsPage } from "./contact-tab.js";
+import './style.css';
 
 
 const tabNav = buildTabNavigation();
