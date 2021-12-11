@@ -1,5 +1,5 @@
 /*
-    todo: style tab navigation
+    style tab navigation
 */
 header{
     background-color: green;
@@ -19,4 +19,142 @@ nav{
 
 .inactive-tab{
     background-color: seashell;
+}
+
+/*
+    home tab styles
+*/
+.home_page{
+    background-color: green;
+    color:honeydew;
+}
+
+.home_heading{
+    background-color: indigo;
+    color:lavenderblush;
+}
+
+.home_title{
+    background-color: lawngreen;
+    color:black;
+}
+
+.home_review_container{
+    background-color: lightseagreen;
+    color:black;
+}
+
+.home_review{
+    background-color: black;
+    color:bisque;
+}
+
+.home_customer{
+    background-color:crimson;
+    color: rgb(203, 243, 203);
+}
+
+.home_hours_container{
+    background: lime;
+    color:darkmagenta;
+}
+
+.home_hours{
+    background: darkolivegreen;
+    color:whitesmoke;
+}
+
+.home_daysOfTheWeek{
+    background-color: chartreuse;
+    color:white;
+}
+
+.sunday{
+    color:chocolate;
+}
+
+.monday{
+    color:cornsilk;
+}
+
+.tuesday{
+    color:dodgerblue;
+}
+
+.wednesday{
+    color:lightcyan;
+}
+
+.thursday{
+    color: midnightblue;
+}
+
+.friday{
+    color: mintcream;
+}
+
+.saturday{
+    color:mistyrose;
+}
+
+.home_location_container{
+    background-color: olivedrab;
+}
+
+.home_location{
+    background-color:orchid;
+}
+
+.home_address{
+    background-color: palegreen;
+}
+/*
+    menu tab style
+*/
+.menu_page{
+    background-color: peachpuff;
+    color:rebeccapurple;
+}
+
+.foodCard{
+    background-color: seagreen;
+    color:seashell;
+}
+
+.drinkCard{
+    background-color: sienna;
+    color:silver;
+}
+
+/*
+    contacts tab styles
+*/
+.contacts_page{
+    background-color: skyblue;
+    color: black;
+}
+
+.contacts{
+    background-color: burlywood;
+    color: coral;
+}
+
+.contact_card{
+    background-color: cyan;
+    color: darkgoldenrod;
+}
+
+.person{
+    background-color: darkkhaki;
+    color: rgb(238, 113, 113);
+}
+
+.occupation{
+    background-color: royalblue;
+    color: yellowgreen;
+}
+
+.phone{
+    background-color: cyan;
+    color: gold;
 }
